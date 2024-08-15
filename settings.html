@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e3eafc;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .settings-container {
+            background-color: white;
+            width: 350px;
+            border-radius: 20px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(to right, #425fe0, #6792e2, #69bce2);
+            padding: 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        .profile {
+            display: flex;
+            align-items: center;
+        }
+
+        .profile-pic {
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            margin-right: 15px;
+            background-color: #ccc;
+        }
+
+        .user-info h2 {
+            color: white;
+            margin: 0;
+            font-size: 18px;
+        }
+
+        .user-info p {
+            color: white;
+            margin: 5px 0 0 0;
+            font-size: 14px;
+        }
+
+        .settings-list {
+            padding: 20px;
+        }
+
+        .settings-item {
+            display: flex;
+            align-items: center;
+            padding: 15px 0;
+            border-bottom: 1px solid #f0f0f0;
+            cursor: pointer;
+        }
+
+        .settings-item:last-child {
+            border-bottom: none;
+        }
+
+        .icon {
+            width: 30px;
+            height: 30px;
+            margin-right: 15px;
+            background-color: #ccc;
+            border-radius: 50%;
+        }
+
+        .arrow {
+            margin-left: auto;
+            font-size: 20px;
+            color: #b0b0b0;
+        }
+    </style>
+</head>
+<body>
+    <div class="settings-container">
+        <div class="header">
+            <div class="profile">
+                <div class="user-info">
+                    <h2>Dr.M.Health</h2>
+                    <p>Heal yourself</p>
+                </div>
+            </div>
+        </div>
+        <div class="settings-list">
+            <div class="settings-item">
+                <span>Account</span>
+                <span class="arrow">&gt;</span>
+            </div>
+            <div class="settings-item">
+                <span>Notifications</span>
+                <span class="arrow">&gt;</span>
+            </div>
+            <div class="settings-item">
+                <span>Location</span>
+                <span class="arrow">&gt;</span>
+            </div>
+            <div class="settings-item">
+                <span>Support</span>
+                <span class="arrow">&gt;</span>
+            </div>
+            <div class="settings-item">
+                <span>Share</span>
+                <span class="arrow">&gt;</span>
+            </div>
+            <div class="settings-item">
+                <span>Log Out</span>
+                <span class="arrow">&gt;</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
